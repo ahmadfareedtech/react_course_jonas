@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import { formatCurrency } from "../../utils/helpers";
 
 const MenuItem = ({ pizza }) => {
+  // eslint-disable-next-line no-unused-vars
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   return (

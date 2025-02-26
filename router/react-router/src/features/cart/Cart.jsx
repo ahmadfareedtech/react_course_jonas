@@ -26,6 +26,7 @@ const fakeCart = [
 
 const Cart = () => {
   const cart = fakeCart;
+  console.log('fake cart', cart)
 
   return (
     <div>
