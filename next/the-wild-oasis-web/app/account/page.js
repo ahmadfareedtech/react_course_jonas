@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Accounts",
+};
+
 export default function Page() {
   return (
     <div>
